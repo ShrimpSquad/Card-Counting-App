@@ -24,9 +24,9 @@ class GameBrain:
 
     def round_time(self, difficulty):
         if difficulty == "1": 
-            return time.sleep(4)
+            return time.sleep(6)
         elif difficulty == "2": 
-            return time.sleep(3)
+            return time.sleep(4)
         elif difficulty == "3": 
             return time.sleep(2)
         elif difficulty == "off": exit()
@@ -35,9 +35,9 @@ class GameBrain:
         if difficulty == "1": 
             return 3
         elif difficulty == "2": 
-            return 5
+            return 4
         elif difficulty == "3": 
-            return 2
+            return 5
         elif difficulty == "off": exit()
 
     def player_cards_value_calc(self, *args):
